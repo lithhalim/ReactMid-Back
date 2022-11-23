@@ -1,0 +1,41 @@
+{
+  "name": "project-file",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test jest  --verbose",
+    "dev": "NODE_ENV=development nodemon index.js",
+    "start": "NODE_ENV=production node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khalid-500/project-file.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khalid-500/project-file/issues"
+  },
+  "homepage": "https://github.com/khalid-500/project-file#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "base-64": "^1.0.0",
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "pg": "^8.8.0",
+    "sequelize": "^6.25.5",
+    "socket.io": "4.4.1",
+    "sqlite3": "^5.1.2",
+    "stripe": "^10.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
