@@ -24,7 +24,10 @@ const GetAllUser=require("../controllers/authntication-controllers/getAllUser_co
 router.get("/getAllData",GetAllUser)
 
 const RemoveUser=require("../controllers/authntication-controllers/RemoveUser");
-router.post("/removeUser",RemoveUser)
+router.post("/removeUser",RemoveUser);
+
+const Update_User=require("../controllers/authntication-controllers/Update_User_Controllers");
+router.post("/updateUser",Update_User)
 
 
 
